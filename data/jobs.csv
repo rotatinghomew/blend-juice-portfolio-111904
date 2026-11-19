@@ -1,0 +1,5 @@
+job,grade,minimum_juice_kg,min_brix,max_brix,min_acid,max_acid,last_slot,customer_allows_lower
+J1,一级,220,11.2,12.6,0.54,0.79,S1,0
+J2,精品,245,12,13.1,0.50,0.69,S3,1
+J3,基料,190,10.5,13.2,0.54,0.88,S3,1
+J4,一级,310,11.2,12.6,0.54,0.79,S4,0

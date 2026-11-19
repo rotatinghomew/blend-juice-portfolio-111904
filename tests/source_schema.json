@@ -1,0 +1,107 @@
+{
+  "pilots": [
+    [
+      "pilot",
+      "kind",
+      "line",
+      "raw_kg",
+      "started_at",
+      "agreed_at"
+    ],
+    [
+      "pilot"
+    ]
+  ],
+  "readings": [
+    [
+      "sample",
+      "layer",
+      "prep",
+      "replicate",
+      "version",
+      "brix",
+      "acid_percent",
+      "known_at"
+    ],
+    [
+      "sample",
+      "prep",
+      "replicate",
+      "version"
+    ]
+  ],
+  "pilot_output": [
+    [
+      "pilot",
+      "version",
+      "usable_juice_kg",
+      "brix",
+      "acid_percent",
+      "loss_kg",
+      "known_at"
+    ],
+    [
+      "pilot",
+      "version"
+    ]
+  ],
+  "raw": [
+    [
+      "lot",
+      "kind",
+      "rev",
+      "net_kg",
+      "splittable",
+      "expires",
+      "known_at"
+    ],
+    [
+      "lot",
+      "rev"
+    ]
+  ],
+  "jobs": [
+    [
+      "job",
+      "grade",
+      "minimum_juice_kg",
+      "min_brix",
+      "max_brix",
+      "min_acid",
+      "max_acid",
+      "last_slot",
+      "customer_allows_lower"
+    ],
+    [
+      "job"
+    ]
+  ],
+  "slots": [
+    [
+      "slot",
+      "line",
+      "day",
+      "period",
+      "max_raw_kg",
+      "tank_available",
+      "cleanup_allowed"
+    ],
+    [
+      "slot"
+    ]
+  ],
+  "commitments": [
+    [
+      "event",
+      "job",
+      "slot",
+      "lot",
+      "qty_kg",
+      "state",
+      "known_at"
+    ],
+    [
+      "event"
+    ]
+  ]
+}
